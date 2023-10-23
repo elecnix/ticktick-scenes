@@ -1,0 +1,4454 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "checkPoint": {
+        "type": "integer"
+      },
+      "syncTaskBean": {
+        "type": "object",
+        "properties": {
+          "update": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "desc": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "isAllDay": {
+                    "type": "boolean"
+                  },
+                  "reminder": {
+                    "type": "string"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "exDate": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "repeatTaskId": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "progress": {
+                    "type": "integer"
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "repeatFrom": {
+                    "type": "string"
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "focusSummaries": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "columnId": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "content",
+                  "desc",
+                  "timeZone",
+                  "isFloating",
+                  "isAllDay",
+                  "reminder",
+                  "reminders",
+                  "exDate",
+                  "repeatTaskId",
+                  "priority",
+                  "status",
+                  "items",
+                  "progress",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "repeatFrom",
+                  "tags",
+                  "focusSummaries",
+                  "columnId",
+                  "kind"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "desc": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "isAllDay": {
+                    "type": "boolean"
+                  },
+                  "reminder": {
+                    "type": "string"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "exDate": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "repeatTaskId": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "progress": {
+                    "type": "integer"
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "repeatFrom": {
+                    "type": "string"
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "focusSummaries": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "columnId": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "content",
+                  "desc",
+                  "timeZone",
+                  "isFloating",
+                  "isAllDay",
+                  "reminder",
+                  "reminders",
+                  "exDate",
+                  "repeatTaskId",
+                  "priority",
+                  "status",
+                  "items",
+                  "progress",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "repeatFrom",
+                  "tags",
+                  "focusSummaries",
+                  "columnId",
+                  "kind"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "desc": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "isAllDay": {
+                    "type": "boolean"
+                  },
+                  "reminder": {
+                    "type": "string"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "exDate": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "repeatTaskId": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "progress": {
+                    "type": "integer"
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "repeatFrom": {
+                    "type": "string"
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "attachments": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "commentCount": {
+                    "type": "integer"
+                  },
+                  "focusSummaries": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "columnId": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "type": "string"
+                  },
+                  "deletedTime": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "content",
+                  "desc",
+                  "timeZone",
+                  "isFloating",
+                  "isAllDay",
+                  "reminder",
+                  "reminders",
+                  "exDate",
+                  "repeatTaskId",
+                  "priority",
+                  "status",
+                  "items",
+                  "progress",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "repeatFrom",
+                  "tags",
+                  "attachments",
+                  "commentCount",
+                  "focusSummaries",
+                  "columnId",
+                  "kind",
+                  "deletedTime"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "desc": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "isAllDay": {
+                    "type": "boolean"
+                  },
+                  "reminder": {
+                    "type": "string"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "exDate": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "repeatTaskId": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "progress": {
+                    "type": "integer"
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "repeatFrom": {
+                    "type": "string"
+                  },
+                  "attachments": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "commentCount": {
+                    "type": "integer"
+                  },
+                  "focusSummaries": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "columnId": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "content",
+                  "desc",
+                  "timeZone",
+                  "isFloating",
+                  "isAllDay",
+                  "reminder",
+                  "reminders",
+                  "exDate",
+                  "repeatTaskId",
+                  "priority",
+                  "status",
+                  "items",
+                  "progress",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "repeatFrom",
+                  "attachments",
+                  "commentCount",
+                  "focusSummaries",
+                  "columnId",
+                  "kind"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "desc": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "isAllDay": {
+                    "type": "boolean"
+                  },
+                  "reminder": {
+                    "type": "string"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "exDate": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "repeatTaskId": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "progress": {
+                    "type": "integer"
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "repeatFrom": {
+                    "type": "string"
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "attachments": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "refId": {
+                            "type": "string"
+                          },
+                          "path": {
+                            "type": "string"
+                          },
+                          "size": {
+                            "type": "integer"
+                          },
+                          "fileName": {
+                            "type": "string"
+                          },
+                          "fileType": {
+                            "type": "string"
+                          },
+                          "status": {
+                            "type": "integer"
+                          },
+                          "createdTime": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "refId",
+                          "path",
+                          "size",
+                          "fileName",
+                          "fileType",
+                          "status",
+                          "createdTime"
+                        ]
+                      }
+                    ]
+                  },
+                  "commentCount": {
+                    "type": "integer"
+                  },
+                  "focusSummaries": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "columnId": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "type": "string"
+                  },
+                  "deletedTime": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "content",
+                  "desc",
+                  "timeZone",
+                  "isFloating",
+                  "isAllDay",
+                  "reminder",
+                  "reminders",
+                  "exDate",
+                  "repeatTaskId",
+                  "priority",
+                  "status",
+                  "items",
+                  "progress",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "repeatFrom",
+                  "tags",
+                  "attachments",
+                  "commentCount",
+                  "focusSummaries",
+                  "columnId",
+                  "kind",
+                  "deletedTime"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "desc": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "isAllDay": {
+                    "type": "boolean"
+                  },
+                  "reminder": {
+                    "type": "string"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "exDate": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "repeatTaskId": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "status": {
+                            "type": "integer"
+                          },
+                          "title": {
+                            "type": "string"
+                          },
+                          "sortOrder": {
+                            "type": "integer"
+                          },
+                          "startDate": {
+                            "type": "null"
+                          },
+                          "isAllDay": {
+                            "type": "boolean"
+                          },
+                          "timeZone": {
+                            "type": "string"
+                          },
+                          "snoozeReminderTime": {
+                            "type": "null"
+                          },
+                          "completedTime": {
+                            "type": "null"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "status",
+                          "title",
+                          "sortOrder",
+                          "startDate",
+                          "isAllDay",
+                          "timeZone",
+                          "snoozeReminderTime",
+                          "completedTime"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "status": {
+                            "type": "integer"
+                          },
+                          "title": {
+                            "type": "string"
+                          },
+                          "sortOrder": {
+                            "type": "integer"
+                          },
+                          "startDate": {
+                            "type": "null"
+                          },
+                          "isAllDay": {
+                            "type": "boolean"
+                          },
+                          "timeZone": {
+                            "type": "string"
+                          },
+                          "snoozeReminderTime": {
+                            "type": "null"
+                          },
+                          "completedTime": {
+                            "type": "null"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "status",
+                          "title",
+                          "sortOrder",
+                          "startDate",
+                          "isAllDay",
+                          "timeZone",
+                          "snoozeReminderTime",
+                          "completedTime"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "status": {
+                            "type": "integer"
+                          },
+                          "title": {
+                            "type": "string"
+                          },
+                          "sortOrder": {
+                            "type": "integer"
+                          },
+                          "startDate": {
+                            "type": "null"
+                          },
+                          "isAllDay": {
+                            "type": "boolean"
+                          },
+                          "timeZone": {
+                            "type": "string"
+                          },
+                          "snoozeReminderTime": {
+                            "type": "null"
+                          },
+                          "completedTime": {
+                            "type": "null"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "status",
+                          "title",
+                          "sortOrder",
+                          "startDate",
+                          "isAllDay",
+                          "timeZone",
+                          "snoozeReminderTime",
+                          "completedTime"
+                        ]
+                      }
+                    ]
+                  },
+                  "progress": {
+                    "type": "integer"
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "repeatFrom": {
+                    "type": "string"
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "attachments": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "commentCount": {
+                    "type": "integer"
+                  },
+                  "focusSummaries": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "columnId": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "content",
+                  "desc",
+                  "timeZone",
+                  "isFloating",
+                  "isAllDay",
+                  "reminder",
+                  "reminders",
+                  "exDate",
+                  "repeatTaskId",
+                  "priority",
+                  "status",
+                  "items",
+                  "progress",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "repeatFrom",
+                  "tags",
+                  "attachments",
+                  "commentCount",
+                  "focusSummaries",
+                  "columnId",
+                  "kind"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "desc": {
+                    "type": "string"
+                  },
+                  "startDate": {
+                    "type": "string"
+                  },
+                  "dueDate": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "isAllDay": {
+                    "type": "boolean"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "trigger": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "trigger"
+                        ]
+                      }
+                    ]
+                  },
+                  "repeatFirstDate": {
+                    "type": "string"
+                  },
+                  "exDate": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "progress": {
+                    "type": "integer"
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "pomodoroSummaries": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "userId": {
+                            "type": "integer"
+                          },
+                          "count": {
+                            "type": "integer"
+                          },
+                          "estimatedPomo": {
+                            "type": "integer"
+                          },
+                          "duration": {
+                            "type": "integer"
+                          }
+                        },
+                        "required": [
+                          "userId",
+                          "count",
+                          "estimatedPomo",
+                          "duration"
+                        ]
+                      }
+                    ]
+                  },
+                  "focusSummaries": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "userId": {
+                            "type": "integer"
+                          },
+                          "pomoCount": {
+                            "type": "integer"
+                          },
+                          "estimatedPomo": {
+                            "type": "integer"
+                          },
+                          "estimatedDuration": {
+                            "type": "integer"
+                          },
+                          "pomoDuration": {
+                            "type": "integer"
+                          },
+                          "stopwatchDuration": {
+                            "type": "integer"
+                          },
+                          "focuses": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "integer"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "userId",
+                          "pomoCount",
+                          "estimatedPomo",
+                          "estimatedDuration",
+                          "pomoDuration",
+                          "stopwatchDuration",
+                          "focuses"
+                        ]
+                      }
+                    ]
+                  },
+                  "columnId": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "type": "string"
+                  },
+                  "pinnedTime": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "content",
+                  "desc",
+                  "startDate",
+                  "dueDate",
+                  "timeZone",
+                  "isFloating",
+                  "isAllDay",
+                  "reminders",
+                  "repeatFirstDate",
+                  "exDate",
+                  "priority",
+                  "status",
+                  "items",
+                  "progress",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "pomodoroSummaries",
+                  "focusSummaries",
+                  "columnId",
+                  "kind",
+                  "pinnedTime"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "desc": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "isAllDay": {
+                    "type": "boolean"
+                  },
+                  "reminder": {
+                    "type": "string"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "repeatFlag": {
+                    "type": "string"
+                  },
+                  "exDate": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "repeatTaskId": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "progress": {
+                    "type": "integer"
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "repeatFrom": {
+                    "type": "string"
+                  },
+                  "attachments": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "refId": {
+                            "type": "string"
+                          },
+                          "path": {
+                            "type": "string"
+                          },
+                          "size": {
+                            "type": "integer"
+                          },
+                          "fileName": {
+                            "type": "string"
+                          },
+                          "fileType": {
+                            "type": "string"
+                          },
+                          "status": {
+                            "type": "integer"
+                          },
+                          "createdTime": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "refId",
+                          "path",
+                          "size",
+                          "fileName",
+                          "fileType",
+                          "status",
+                          "createdTime"
+                        ]
+                      }
+                    ]
+                  },
+                  "commentCount": {
+                    "type": "integer"
+                  },
+                  "focusSummaries": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "columnId": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "content",
+                  "desc",
+                  "timeZone",
+                  "isFloating",
+                  "isAllDay",
+                  "reminder",
+                  "reminders",
+                  "repeatFlag",
+                  "exDate",
+                  "repeatTaskId",
+                  "priority",
+                  "status",
+                  "items",
+                  "progress",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "repeatFrom",
+                  "attachments",
+                  "commentCount",
+                  "focusSummaries",
+                  "columnId",
+                  "kind"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "desc": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "isAllDay": {
+                    "type": "boolean"
+                  },
+                  "reminder": {
+                    "type": "string"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "repeatFlag": {
+                    "type": "string"
+                  },
+                  "exDate": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "repeatTaskId": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "progress": {
+                    "type": "integer"
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "repeatFrom": {
+                    "type": "string"
+                  },
+                  "attachments": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "commentCount": {
+                    "type": "integer"
+                  },
+                  "focusSummaries": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "columnId": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "desc",
+                  "timeZone",
+                  "isFloating",
+                  "isAllDay",
+                  "reminder",
+                  "reminders",
+                  "repeatFlag",
+                  "exDate",
+                  "repeatTaskId",
+                  "priority",
+                  "status",
+                  "items",
+                  "progress",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "repeatFrom",
+                  "attachments",
+                  "commentCount",
+                  "focusSummaries",
+                  "columnId",
+                  "kind"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "startDate": {
+                    "type": "string"
+                  },
+                  "dueDate": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "isAllDay": {
+                    "type": "boolean"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "trigger": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "trigger"
+                        ]
+                      }
+                    ]
+                  },
+                  "exDate": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "progress": {
+                    "type": "integer"
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "attachments": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "refId": {
+                            "type": "string"
+                          },
+                          "path": {
+                            "type": "string"
+                          },
+                          "size": {
+                            "type": "integer"
+                          },
+                          "fileName": {
+                            "type": "string"
+                          },
+                          "fileType": {
+                            "type": "string"
+                          },
+                          "createdTime": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "refId",
+                          "path",
+                          "size",
+                          "fileName",
+                          "fileType",
+                          "createdTime"
+                        ]
+                      }
+                    ]
+                  },
+                  "kind": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "content",
+                  "startDate",
+                  "dueDate",
+                  "timeZone",
+                  "isFloating",
+                  "isAllDay",
+                  "reminders",
+                  "exDate",
+                  "priority",
+                  "status",
+                  "items",
+                  "progress",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "attachments",
+                  "kind"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "reminder": {
+                    "type": "string"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "kind": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "content",
+                  "timeZone",
+                  "isFloating",
+                  "reminder",
+                  "reminders",
+                  "priority",
+                  "status",
+                  "items",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "tags",
+                  "kind"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "reminder": {
+                    "type": "string"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "exDate": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "progress": {
+                    "type": "integer"
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "kind": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "content",
+                  "timeZone",
+                  "isFloating",
+                  "reminder",
+                  "reminders",
+                  "exDate",
+                  "priority",
+                  "status",
+                  "items",
+                  "progress",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "tags",
+                  "kind"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "projectId": {
+                    "type": "string"
+                  },
+                  "sortOrder": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "startDate": {
+                    "type": "string"
+                  },
+                  "dueDate": {
+                    "type": "string"
+                  },
+                  "timeZone": {
+                    "type": "string"
+                  },
+                  "isFloating": {
+                    "type": "boolean"
+                  },
+                  "isAllDay": {
+                    "type": "boolean"
+                  },
+                  "reminders": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "trigger": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "trigger"
+                        ]
+                      }
+                    ]
+                  },
+                  "exDate": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "priority": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "integer"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "progress": {
+                    "type": "integer"
+                  },
+                  "modifiedTime": {
+                    "type": "string"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "deleted": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "string"
+                  },
+                  "creator": {
+                    "type": "integer"
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "kind": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "projectId",
+                  "sortOrder",
+                  "title",
+                  "content",
+                  "startDate",
+                  "dueDate",
+                  "timeZone",
+                  "isFloating",
+                  "isAllDay",
+                  "reminders",
+                  "exDate",
+                  "priority",
+                  "status",
+                  "items",
+                  "progress",
+                  "modifiedTime",
+                  "etag",
+                  "deleted",
+                  "createdTime",
+                  "creator",
+                  "tags",
+                  "kind"
+                ]
+              }
+            ]
+          },
+          "delete": {
+            "type": "array",
+            "items": {}
+          },
+          "add": {
+            "type": "array",
+            "items": {}
+          },
+          "empty": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "update",
+          "delete",
+          "add",
+          "empty"
+        ]
+      },
+      "projectProfiles": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "isOwner": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "string"
+              },
+              "inAll": {
+                "type": "boolean"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "userCount": {
+                "type": "integer"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "closed": {
+                "type": "null"
+              },
+              "muted": {
+                "type": "boolean"
+              },
+              "transferred": {
+                "type": "null"
+              },
+              "groupId": {
+                "type": "null"
+              },
+              "viewMode": {
+                "type": "null"
+              },
+              "notificationOptions": {
+                "type": "array",
+                "items": {}
+              },
+              "teamId": {
+                "type": "null"
+              },
+              "permission": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "object",
+                "properties": {
+                  "range": {
+                    "type": "string"
+                  },
+                  "sortType": {
+                    "type": "string"
+                  },
+                  "sortOption": {
+                    "type": "object",
+                    "properties": {
+                      "groupBy": {
+                        "type": "string"
+                      },
+                      "orderBy": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "groupBy",
+                      "orderBy"
+                    ]
+                  }
+                },
+                "required": [
+                  "range",
+                  "sortType",
+                  "sortOption"
+                ]
+              },
+              "needAudit": {
+                "type": "boolean"
+              },
+              "openToTeam": {
+                "type": "null"
+              },
+              "teamMemberPermission": {
+                "type": "null"
+              },
+              "source": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "isOwner",
+              "color",
+              "inAll",
+              "sortOrder",
+              "sortOption",
+              "sortType",
+              "userCount",
+              "etag",
+              "modifiedTime",
+              "closed",
+              "muted",
+              "transferred",
+              "groupId",
+              "viewMode",
+              "notificationOptions",
+              "teamId",
+              "permission",
+              "kind",
+              "timeline",
+              "needAudit",
+              "openToTeam",
+              "teamMemberPermission",
+              "source"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "isOwner": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "null"
+              },
+              "inAll": {
+                "type": "boolean"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "userCount": {
+                "type": "integer"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "closed": {
+                "type": "null"
+              },
+              "muted": {
+                "type": "boolean"
+              },
+              "transferred": {
+                "type": "null"
+              },
+              "groupId": {
+                "type": "null"
+              },
+              "viewMode": {
+                "type": "string"
+              },
+              "notificationOptions": {
+                "type": "array",
+                "items": {}
+              },
+              "teamId": {
+                "type": "null"
+              },
+              "permission": {
+                "type": "null"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "object",
+                "properties": {
+                  "range": {
+                    "type": "string"
+                  },
+                  "sortType": {
+                    "type": "string"
+                  },
+                  "sortOption": {
+                    "type": "object",
+                    "properties": {
+                      "groupBy": {
+                        "type": "string"
+                      },
+                      "orderBy": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "groupBy",
+                      "orderBy"
+                    ]
+                  }
+                },
+                "required": [
+                  "range",
+                  "sortType",
+                  "sortOption"
+                ]
+              },
+              "needAudit": {
+                "type": "boolean"
+              },
+              "openToTeam": {
+                "type": "null"
+              },
+              "teamMemberPermission": {
+                "type": "null"
+              },
+              "source": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "isOwner",
+              "color",
+              "inAll",
+              "sortOrder",
+              "sortOption",
+              "sortType",
+              "userCount",
+              "etag",
+              "modifiedTime",
+              "closed",
+              "muted",
+              "transferred",
+              "groupId",
+              "viewMode",
+              "notificationOptions",
+              "teamId",
+              "permission",
+              "kind",
+              "timeline",
+              "needAudit",
+              "openToTeam",
+              "teamMemberPermission",
+              "source"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "isOwner": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "string"
+              },
+              "inAll": {
+                "type": "boolean"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "userCount": {
+                "type": "integer"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "closed": {
+                "type": "null"
+              },
+              "muted": {
+                "type": "boolean"
+              },
+              "transferred": {
+                "type": "null"
+              },
+              "groupId": {
+                "type": "null"
+              },
+              "viewMode": {
+                "type": "null"
+              },
+              "notificationOptions": {
+                "type": "array",
+                "items": {}
+              },
+              "teamId": {
+                "type": "null"
+              },
+              "permission": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "object",
+                "properties": {
+                  "range": {
+                    "type": "string"
+                  },
+                  "sortType": {
+                    "type": "string"
+                  },
+                  "sortOption": {
+                    "type": "object",
+                    "properties": {
+                      "groupBy": {
+                        "type": "string"
+                      },
+                      "orderBy": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "groupBy",
+                      "orderBy"
+                    ]
+                  }
+                },
+                "required": [
+                  "range",
+                  "sortType",
+                  "sortOption"
+                ]
+              },
+              "needAudit": {
+                "type": "boolean"
+              },
+              "openToTeam": {
+                "type": "null"
+              },
+              "teamMemberPermission": {
+                "type": "null"
+              },
+              "source": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "isOwner",
+              "color",
+              "inAll",
+              "sortOrder",
+              "sortOption",
+              "sortType",
+              "userCount",
+              "etag",
+              "modifiedTime",
+              "closed",
+              "muted",
+              "transferred",
+              "groupId",
+              "viewMode",
+              "notificationOptions",
+              "teamId",
+              "permission",
+              "kind",
+              "timeline",
+              "needAudit",
+              "openToTeam",
+              "teamMemberPermission",
+              "source"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "isOwner": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "null"
+              },
+              "inAll": {
+                "type": "boolean"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "userCount": {
+                "type": "integer"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "closed": {
+                "type": "null"
+              },
+              "muted": {
+                "type": "boolean"
+              },
+              "transferred": {
+                "type": "null"
+              },
+              "groupId": {
+                "type": "null"
+              },
+              "viewMode": {
+                "type": "null"
+              },
+              "notificationOptions": {
+                "type": "array",
+                "items": {}
+              },
+              "teamId": {
+                "type": "null"
+              },
+              "permission": {
+                "type": "null"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "object",
+                "properties": {
+                  "range": {
+                    "type": "string"
+                  },
+                  "sortType": {
+                    "type": "string"
+                  },
+                  "sortOption": {
+                    "type": "object",
+                    "properties": {
+                      "groupBy": {
+                        "type": "string"
+                      },
+                      "orderBy": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "groupBy",
+                      "orderBy"
+                    ]
+                  }
+                },
+                "required": [
+                  "range",
+                  "sortType",
+                  "sortOption"
+                ]
+              },
+              "needAudit": {
+                "type": "boolean"
+              },
+              "openToTeam": {
+                "type": "null"
+              },
+              "teamMemberPermission": {
+                "type": "null"
+              },
+              "source": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "isOwner",
+              "color",
+              "inAll",
+              "sortOrder",
+              "sortOption",
+              "sortType",
+              "userCount",
+              "etag",
+              "modifiedTime",
+              "closed",
+              "muted",
+              "transferred",
+              "groupId",
+              "viewMode",
+              "notificationOptions",
+              "teamId",
+              "permission",
+              "kind",
+              "timeline",
+              "needAudit",
+              "openToTeam",
+              "teamMemberPermission",
+              "source"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "isOwner": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "null"
+              },
+              "inAll": {
+                "type": "boolean"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "userCount": {
+                "type": "integer"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "closed": {
+                "type": "boolean"
+              },
+              "muted": {
+                "type": "boolean"
+              },
+              "transferred": {
+                "type": "null"
+              },
+              "groupId": {
+                "type": "null"
+              },
+              "viewMode": {
+                "type": "null"
+              },
+              "notificationOptions": {
+                "type": "array",
+                "items": {}
+              },
+              "teamId": {
+                "type": "null"
+              },
+              "permission": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "object",
+                "properties": {
+                  "range": {
+                    "type": "string"
+                  },
+                  "sortType": {
+                    "type": "string"
+                  },
+                  "sortOption": {
+                    "type": "object",
+                    "properties": {
+                      "groupBy": {
+                        "type": "string"
+                      },
+                      "orderBy": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "groupBy",
+                      "orderBy"
+                    ]
+                  }
+                },
+                "required": [
+                  "range",
+                  "sortType",
+                  "sortOption"
+                ]
+              },
+              "needAudit": {
+                "type": "boolean"
+              },
+              "openToTeam": {
+                "type": "null"
+              },
+              "teamMemberPermission": {
+                "type": "null"
+              },
+              "source": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "isOwner",
+              "color",
+              "inAll",
+              "sortOrder",
+              "sortOption",
+              "sortType",
+              "userCount",
+              "etag",
+              "modifiedTime",
+              "closed",
+              "muted",
+              "transferred",
+              "groupId",
+              "viewMode",
+              "notificationOptions",
+              "teamId",
+              "permission",
+              "kind",
+              "timeline",
+              "needAudit",
+              "openToTeam",
+              "teamMemberPermission",
+              "source"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "isOwner": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "null"
+              },
+              "inAll": {
+                "type": "boolean"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "userCount": {
+                "type": "integer"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "closed": {
+                "type": "null"
+              },
+              "muted": {
+                "type": "boolean"
+              },
+              "transferred": {
+                "type": "null"
+              },
+              "groupId": {
+                "type": "null"
+              },
+              "viewMode": {
+                "type": "null"
+              },
+              "notificationOptions": {
+                "type": "array",
+                "items": {}
+              },
+              "teamId": {
+                "type": "null"
+              },
+              "permission": {
+                "type": "null"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "object",
+                "properties": {
+                  "range": {
+                    "type": "string"
+                  },
+                  "sortType": {
+                    "type": "string"
+                  },
+                  "sortOption": {
+                    "type": "object",
+                    "properties": {
+                      "groupBy": {
+                        "type": "string"
+                      },
+                      "orderBy": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "groupBy",
+                      "orderBy"
+                    ]
+                  }
+                },
+                "required": [
+                  "range",
+                  "sortType",
+                  "sortOption"
+                ]
+              },
+              "needAudit": {
+                "type": "boolean"
+              },
+              "openToTeam": {
+                "type": "null"
+              },
+              "teamMemberPermission": {
+                "type": "null"
+              },
+              "source": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "isOwner",
+              "color",
+              "inAll",
+              "sortOrder",
+              "sortOption",
+              "sortType",
+              "userCount",
+              "etag",
+              "modifiedTime",
+              "closed",
+              "muted",
+              "transferred",
+              "groupId",
+              "viewMode",
+              "notificationOptions",
+              "teamId",
+              "permission",
+              "kind",
+              "timeline",
+              "needAudit",
+              "openToTeam",
+              "teamMemberPermission",
+              "source"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "isOwner": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "string"
+              },
+              "inAll": {
+                "type": "boolean"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "userCount": {
+                "type": "integer"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "closed": {
+                "type": "boolean"
+              },
+              "muted": {
+                "type": "boolean"
+              },
+              "transferred": {
+                "type": "null"
+              },
+              "groupId": {
+                "type": "null"
+              },
+              "viewMode": {
+                "type": "string"
+              },
+              "notificationOptions": {
+                "type": "array",
+                "items": {}
+              },
+              "teamId": {
+                "type": "null"
+              },
+              "permission": {
+                "type": "null"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "object",
+                "properties": {
+                  "range": {
+                    "type": "null"
+                  },
+                  "sortType": {
+                    "type": "string"
+                  },
+                  "sortOption": {
+                    "type": "object",
+                    "properties": {
+                      "groupBy": {
+                        "type": "string"
+                      },
+                      "orderBy": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "groupBy",
+                      "orderBy"
+                    ]
+                  }
+                },
+                "required": [
+                  "range",
+                  "sortType",
+                  "sortOption"
+                ]
+              },
+              "needAudit": {
+                "type": "boolean"
+              },
+              "openToTeam": {
+                "type": "null"
+              },
+              "teamMemberPermission": {
+                "type": "null"
+              },
+              "source": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "isOwner",
+              "color",
+              "inAll",
+              "sortOrder",
+              "sortOption",
+              "sortType",
+              "userCount",
+              "etag",
+              "modifiedTime",
+              "closed",
+              "muted",
+              "transferred",
+              "groupId",
+              "viewMode",
+              "notificationOptions",
+              "teamId",
+              "permission",
+              "kind",
+              "timeline",
+              "needAudit",
+              "openToTeam",
+              "teamMemberPermission",
+              "source"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "isOwner": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "string"
+              },
+              "inAll": {
+                "type": "boolean"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "userCount": {
+                "type": "integer"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "closed": {
+                "type": "null"
+              },
+              "muted": {
+                "type": "boolean"
+              },
+              "transferred": {
+                "type": "null"
+              },
+              "groupId": {
+                "type": "null"
+              },
+              "viewMode": {
+                "type": "null"
+              },
+              "notificationOptions": {
+                "type": "array",
+                "items": {}
+              },
+              "teamId": {
+                "type": "null"
+              },
+              "permission": {
+                "type": "null"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "object",
+                "properties": {
+                  "range": {
+                    "type": "null"
+                  },
+                  "sortType": {
+                    "type": "string"
+                  },
+                  "sortOption": {
+                    "type": "object",
+                    "properties": {
+                      "groupBy": {
+                        "type": "string"
+                      },
+                      "orderBy": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "groupBy",
+                      "orderBy"
+                    ]
+                  }
+                },
+                "required": [
+                  "range",
+                  "sortType",
+                  "sortOption"
+                ]
+              },
+              "needAudit": {
+                "type": "boolean"
+              },
+              "openToTeam": {
+                "type": "null"
+              },
+              "teamMemberPermission": {
+                "type": "null"
+              },
+              "source": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "isOwner",
+              "color",
+              "inAll",
+              "sortOrder",
+              "sortOption",
+              "sortType",
+              "userCount",
+              "etag",
+              "modifiedTime",
+              "closed",
+              "muted",
+              "transferred",
+              "groupId",
+              "viewMode",
+              "notificationOptions",
+              "teamId",
+              "permission",
+              "kind",
+              "timeline",
+              "needAudit",
+              "openToTeam",
+              "teamMemberPermission",
+              "source"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "isOwner": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "null"
+              },
+              "inAll": {
+                "type": "boolean"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "userCount": {
+                "type": "integer"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "closed": {
+                "type": "null"
+              },
+              "muted": {
+                "type": "boolean"
+              },
+              "transferred": {
+                "type": "null"
+              },
+              "groupId": {
+                "type": "string"
+              },
+              "viewMode": {
+                "type": "null"
+              },
+              "notificationOptions": {
+                "type": "array",
+                "items": {}
+              },
+              "teamId": {
+                "type": "null"
+              },
+              "permission": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "object",
+                "properties": {
+                  "range": {
+                    "type": "null"
+                  },
+                  "sortType": {
+                    "type": "string"
+                  },
+                  "sortOption": {
+                    "type": "object",
+                    "properties": {
+                      "groupBy": {
+                        "type": "string"
+                      },
+                      "orderBy": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "groupBy",
+                      "orderBy"
+                    ]
+                  }
+                },
+                "required": [
+                  "range",
+                  "sortType",
+                  "sortOption"
+                ]
+              },
+              "needAudit": {
+                "type": "boolean"
+              },
+              "openToTeam": {
+                "type": "boolean"
+              },
+              "teamMemberPermission": {
+                "type": "null"
+              },
+              "source": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "isOwner",
+              "color",
+              "inAll",
+              "sortOrder",
+              "sortOption",
+              "sortType",
+              "userCount",
+              "etag",
+              "modifiedTime",
+              "closed",
+              "muted",
+              "transferred",
+              "groupId",
+              "viewMode",
+              "notificationOptions",
+              "teamId",
+              "permission",
+              "kind",
+              "timeline",
+              "needAudit",
+              "openToTeam",
+              "teamMemberPermission",
+              "source"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "isOwner": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "null"
+              },
+              "inAll": {
+                "type": "boolean"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "userCount": {
+                "type": "integer"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "closed": {
+                "type": "null"
+              },
+              "muted": {
+                "type": "boolean"
+              },
+              "transferred": {
+                "type": "null"
+              },
+              "groupId": {
+                "type": "string"
+              },
+              "viewMode": {
+                "type": "null"
+              },
+              "notificationOptions": {
+                "type": "null"
+              },
+              "teamId": {
+                "type": "null"
+              },
+              "permission": {
+                "type": "null"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "null"
+              },
+              "needAudit": {
+                "type": "boolean"
+              },
+              "openToTeam": {
+                "type": "null"
+              },
+              "teamMemberPermission": {
+                "type": "null"
+              },
+              "source": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "isOwner",
+              "color",
+              "inAll",
+              "sortOrder",
+              "sortOption",
+              "sortType",
+              "userCount",
+              "etag",
+              "modifiedTime",
+              "closed",
+              "muted",
+              "transferred",
+              "groupId",
+              "viewMode",
+              "notificationOptions",
+              "teamId",
+              "permission",
+              "kind",
+              "timeline",
+              "needAudit",
+              "openToTeam",
+              "teamMemberPermission",
+              "source"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "isOwner": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "string"
+              },
+              "inAll": {
+                "type": "boolean"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "userCount": {
+                "type": "integer"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "closed": {
+                "type": "null"
+              },
+              "muted": {
+                "type": "boolean"
+              },
+              "transferred": {
+                "type": "null"
+              },
+              "groupId": {
+                "type": "null"
+              },
+              "viewMode": {
+                "type": "string"
+              },
+              "notificationOptions": {
+                "type": "null"
+              },
+              "teamId": {
+                "type": "null"
+              },
+              "permission": {
+                "type": "null"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "null"
+              },
+              "needAudit": {
+                "type": "boolean"
+              },
+              "openToTeam": {
+                "type": "boolean"
+              },
+              "teamMemberPermission": {
+                "type": "null"
+              },
+              "source": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "isOwner",
+              "color",
+              "inAll",
+              "sortOrder",
+              "sortOption",
+              "sortType",
+              "userCount",
+              "etag",
+              "modifiedTime",
+              "closed",
+              "muted",
+              "transferred",
+              "groupId",
+              "viewMode",
+              "notificationOptions",
+              "teamId",
+              "permission",
+              "kind",
+              "timeline",
+              "needAudit",
+              "openToTeam",
+              "teamMemberPermission",
+              "source"
+            ]
+          }
+        ]
+      },
+      "projectGroups": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "showAll": {
+                "type": "boolean"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "viewMode": {
+                "type": "null"
+              },
+              "deleted": {
+                "type": "integer"
+              },
+              "userId": {
+                "type": "integer"
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              },
+              "teamId": {
+                "type": "null"
+              },
+              "timeline": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "id",
+              "etag",
+              "name",
+              "showAll",
+              "sortOrder",
+              "viewMode",
+              "deleted",
+              "userId",
+              "sortType",
+              "sortOption",
+              "teamId",
+              "timeline"
+            ]
+          }
+        ]
+      },
+      "filters": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "rule": {
+                "type": "string"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "viewMode": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "object",
+                "properties": {
+                  "range": {
+                    "type": "null"
+                  },
+                  "sortType": {
+                    "type": "string"
+                  },
+                  "sortOption": {
+                    "type": "object",
+                    "properties": {
+                      "groupBy": {
+                        "type": "string"
+                      },
+                      "orderBy": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "groupBy",
+                      "orderBy"
+                    ]
+                  }
+                },
+                "required": [
+                  "range",
+                  "sortType",
+                  "sortOption"
+                ]
+              },
+              "etag": {
+                "type": "string"
+              },
+              "createdTime": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "rule",
+              "sortOrder",
+              "sortType",
+              "viewMode",
+              "timeline",
+              "etag",
+              "createdTime",
+              "modifiedTime",
+              "sortOption"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "rule": {
+                "type": "string"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "viewMode": {
+                "type": "string"
+              },
+              "timeline": {
+                "type": "object",
+                "properties": {
+                  "range": {
+                    "type": "null"
+                  },
+                  "sortType": {
+                    "type": "string"
+                  },
+                  "sortOption": {
+                    "type": "object",
+                    "properties": {
+                      "groupBy": {
+                        "type": "string"
+                      },
+                      "orderBy": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "groupBy",
+                      "orderBy"
+                    ]
+                  }
+                },
+                "required": [
+                  "range",
+                  "sortType",
+                  "sortOption"
+                ]
+              },
+              "etag": {
+                "type": "string"
+              },
+              "createdTime": {
+                "type": "string"
+              },
+              "modifiedTime": {
+                "type": "string"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "rule",
+              "sortOrder",
+              "sortType",
+              "viewMode",
+              "timeline",
+              "etag",
+              "createdTime",
+              "modifiedTime",
+              "sortOption"
+            ]
+          }
+        ]
+      },
+      "tags": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "rawName": {
+                "type": "string"
+              },
+              "label": {
+                "type": "string"
+              },
+              "sortOrder": {
+                "type": "integer"
+              },
+              "sortType": {
+                "type": "string"
+              },
+              "color": {
+                "type": "string"
+              },
+              "etag": {
+                "type": "string"
+              },
+              "type": {
+                "type": "integer"
+              },
+              "sortOption": {
+                "type": "object",
+                "properties": {
+                  "groupBy": {
+                    "type": "string"
+                  },
+                  "orderBy": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "groupBy",
+                  "orderBy"
+                ]
+              }
+            },
+            "required": [
+              "name",
+              "rawName",
+              "label",
+              "sortOrder",
+              "sortType",
+              "color",
+              "etag",
+              "type",
+              "sortOption"
+            ]
+          }
+        ]
+      },
+      "syncTaskOrderBean": {
+        "type": "object",
+        "properties": {
+          "taskOrderByDate": {
+            "type": "object"
+          },
+          "taskOrderByPriority": {
+            "type": "object"
+          },
+          "taskOrderByProject": {
+            "type": "object",
+            "properties": {
+              "62c9f6d88f08338579c08dea": {
+                "type": "object",
+                "properties": {
+                  "all": {
+                    "type": "object",
+                    "properties": {
+                      "changed": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string"
+                              },
+                              "order": {
+                                "type": "integer"
+                              },
+                              "type": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "order",
+                              "type"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string"
+                              },
+                              "order": {
+                                "type": "integer"
+                              },
+                              "type": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "order",
+                              "type"
+                            ]
+                          }
+                        ]
+                      },
+                      "deleted": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "changed",
+                      "deleted"
+                    ]
+                  }
+                },
+                "required": [
+                  "all"
+                ]
+              },
+              "inbox112770529": {
+                "type": "object",
+                "properties": {
+                  "all": {
+                    "type": "object",
+                    "properties": {
+                      "changed": {
+                        "type": "array",
+                        "items": {}
+                      },
+                      "deleted": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "changed",
+                      "deleted"
+                    ]
+                  }
+                },
+                "required": [
+                  "all"
+                ]
+              }
+            },
+            "required": [
+              "62c9f6d88f08338579c08dea",
+              "inbox112770529"
+            ]
+          }
+        },
+        "required": [
+          "taskOrderByDate",
+          "taskOrderByPriority",
+          "taskOrderByProject"
+        ]
+      },
+      "syncOrderBean": {
+        "type": "object",
+        "properties": {
+          "orderByType": {
+            "type": "object",
+            "properties": {
+              "projectPinned": {
+                "type": "object",
+                "properties": {
+                  "all": {
+                    "type": "object",
+                    "properties": {
+                      "changed": {
+                        "type": "array",
+                        "items": {}
+                      },
+                      "deleted": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "changed",
+                      "deleted"
+                    ]
+                  }
+                },
+                "required": [
+                  "all"
+                ]
+              },
+              "taskPinned": {
+                "type": "object",
+                "properties": {
+                  "639b3e518f08b7851bff5500": {
+                    "type": "object",
+                    "properties": {
+                      "changed": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string"
+                              },
+                              "order": {
+                                "type": "integer"
+                              },
+                              "type": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "order",
+                              "type"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string"
+                              },
+                              "order": {
+                                "type": "integer"
+                              },
+                              "type": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "order",
+                              "type"
+                            ]
+                          }
+                        ]
+                      },
+                      "deleted": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "changed",
+                      "deleted"
+                    ]
+                  }
+                },
+                "required": [
+                  "639b3e518f08b7851bff5500"
+                ]
+              }
+            },
+            "required": [
+              "projectPinned",
+              "taskPinned"
+            ]
+          }
+        },
+        "required": [
+          "orderByType"
+        ]
+      },
+      "syncOrderBeanV3": {
+        "type": "object",
+        "properties": {
+          "orderByType": {
+            "type": "object",
+            "properties": {
+              "taskBy#dueDate|20271012_dueDate": {
+                "type": "object",
+                "properties": {
+                  "62c9f6d88f08338579c08dea": {
+                    "type": "object",
+                    "properties": {
+                      "changed": {
+                        "type": "array",
+                        "items": {}
+                      },
+                      "deleted": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string"
+                              },
+                              "order": {
+                                "type": "integer"
+                              },
+                              "type": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "order",
+                              "type"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "changed",
+                      "deleted"
+                    ]
+                  }
+                },
+                "required": [
+                  "62c9f6d88f08338579c08dea"
+                ]
+              },
+              "taskBy#project|645b0ed45250aee278fa1e06_dueDate": {
+                "type": "object",
+                "properties": {
+                  "all": {
+                    "type": "object",
+                    "properties": {
+                      "changed": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string"
+                              },
+                              "order": {
+                                "type": "integer"
+                              },
+                              "type": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "order",
+                              "type"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string"
+                              },
+                              "order": {
+                                "type": "integer"
+                              },
+                              "type": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "order",
+                              "type"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string"
+                              },
+                              "order": {
+                                "type": "integer"
+                              },
+                              "type": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "order",
+                              "type"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string"
+                              },
+                              "order": {
+                                "type": "integer"
+                              },
+                              "type": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "order",
+                              "type"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string"
+                              },
+                              "order": {
+                                "type": "integer"
+                              },
+                              "type": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "order",
+                              "type"
+                            ]
+                          }
+                        ]
+                      },
+                      "deleted": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "changed",
+                      "deleted"
+                    ]
+                  }
+                },
+                "required": [
+                  "all"
+                ]
+              }
+            },
+            "required": [
+              "taskBy#dueDate|20271012_dueDate",
+              "taskBy#project|645b0ed45250aee278fa1e06_dueDate"
+            ]
+          }
+        },
+        "required": [
+          "orderByType"
+        ]
+      },
+      "inboxId": {
+        "type": "string"
+      },
+      "checks": {
+        "type": "null"
+      },
+      "remindChanges": {
+        "type": "array",
+        "items": {}
+      }
+    },
+    "required": [
+      "checkPoint",
+      "syncTaskBean",
+      "projectProfiles",
+      "projectGroups",
+      "filters",
+      "tags",
+      "syncTaskOrderBean",
+      "syncOrderBean",
+      "syncOrderBeanV3",
+      "inboxId",
+      "checks",
+      "remindChanges"
+    ]
+  }
