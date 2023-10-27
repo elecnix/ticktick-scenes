@@ -19,29 +19,33 @@ These scene identifiers are expected, so make sure yours match:
 - Create a file named ~/.PomodoroHomeAssistant with a [long-lived access token](https://developers.home-assistant.io/docs/auth_api/#long-lived-access-token) and the URL to your Home Assistant server:
 
 ```
-    {
-        "homeassistant": {
-            "token": "your-long-lived-token",
-            "url": "http://your-homeassistant:8123",
+{
+    "homeassistant": {
+        "token": "your-long-lived-token",
+        "url": "http://your-homeassistant:8123",
+    },
+    "ticktick": {
+        "oauth": {
+            "id": "",
+            "secret": ""
         },
-        "ticktick": {
-            "oauth": {
-                "id": "",
-                "secret": ""
-            },
-            "username": "",
-            "password": ""
-        }
+        "username": "",
+        "password": ""
     }
+}
 ```
 
 To get the OAuth id and secret, follow the instructions in ticktick-py's [Register A New TickTick App](https://github.com/lazeroffmichael/ticktick-py#register-a-new-ticktick-app).
 
 ## Usage
 
+Create environment: `conda create -n ticktick-scenes python=3.11`
+
+Activate: `conda activate ticktick-scenes`
+
 Install requirements: `pip install -r requirements.txt`
 
-Run `./pomodoro.py`
+Run `python pomodoro.py`
 
 It will authenticate to TickTick, open a WebSocket to TickTick and listen to messages. Upon receiving start, pause, continue, startBreak, endBreak or exit messages, it communicates with your Home Assistant instance to turn scenes on.
 

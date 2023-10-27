@@ -45,8 +45,10 @@ ticktick_scenes = {
     "continue": "scene.pomodoro_enabled",
     "startBreak": "scene.pomodoro_short_break",
     "endBreak": "scene.pomodoro_suspended",
+    "finish": "scene.normal",
     "drop": "scene.normal",
     "exit": "scene.normal",
+    "focus": None,
 }
 
 homeassistant_scene_url = f"{homeassistant_url}/api/services/scene/turn_on"
@@ -64,6 +66,8 @@ def set_scene(ticktick_op):
 
     data = {}
     data["entity_id"] = ticktick_scenes[ticktick_op]
+    if not data["entity_id"]:
+        return
 
     syslog.syslog(syslog.LOG_INFO, f"{ticktick_op} --> {data}\n")
 
