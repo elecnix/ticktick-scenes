@@ -44,6 +44,7 @@ ticktick_scenes = {
     "pause": "scene.pomodoro_suspended",
     "continue": "scene.pomodoro_enabled",
     "startBreak": "scene.pomodoro_short_break",
+    "longBreak": "scene.pomodoro_long_break",
     "endBreak": "scene.pomodoro_suspended",
     "finish": "scene.normal",
     "drop": "scene.normal",
@@ -80,6 +81,8 @@ def on_message(ws, message):
     if 'data' in parsed_message:
         data = parsed_message['data']
         op = data['op']
+        if op == 'startBreak' and data['duration'] > 5:
+            op = 'longBreak'
         try:
             set_scene(op)
         except Exception as e:
