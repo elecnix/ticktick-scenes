@@ -8,11 +8,11 @@ The status of the pomodoro timer is used to turn on scenes in Home Assistant.
 
 These scene identifiers are expected, so make sure yours match:
 
- - `normal` when stopping the timer
- - `pomodoro_enabled` when the timer is running
- - `pomodoro_suspended` when the timer is paused (including during a break)
- - `pomodoro_short_break` during a short break
- - `pomodoro_long_break` during a long break
+- `normal` when stopping the timer
+- `pomodoro_enabled` when the timer is running
+- `pomodoro_suspended` when the timer is paused (including during a break)
+- `pomodoro_short_break` during a short break
+- `pomodoro_long_break` during a long break
 
 ## Configuration
 
@@ -49,11 +49,16 @@ Run `python pomodoro.py`
 
 It will authenticate to TickTick, open a WebSocket to TickTick and listen to messages. Upon receiving start, pause, continue, startBreak, endBreak or exit messages, it communicates with your Home Assistant instance to turn scenes on.
 
+Alternatively, build a Docker container:
+
+    docker build -t ticktick-scenes .
+    docker run -d -v $HOME/.PomodoroHomeAssistant:/root/.PomodoroHomeAssistant ticktick-scenes
+
 ## About
 
 Uses [ticktick-py](https://github.com/lazeroffmichael/ticktick-py) and inspired by [r/ticktick on Reddit](https://www.reddit.com/r/ticktick/comments/yob4h4/api_v2_documentation/)
 
 # Future Improvements
 
- - Configurable scene names
- - Create a Home Assistant integration
+- Configurable scene names
+- Create a Home Assistant integration
