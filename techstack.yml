@@ -1,7 +1,8 @@
 repo_name: elecnix/ticktick-scenes
-report_id: bb834e5d6bb5b5ddc587e2a779719f6d
+report_id: 8ca28e73d745d55d180f7dffa144f850
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T09:35:36+00:00'
+timestamp: '2024-01-04T14:59:39+00:00'
 requested_by: elecnix
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes
   detection_source: Repo Metadata
 - name: pgvector
   description: Open-source vector similarity search for Postgres
@@ -25,6 +27,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nicolas Marchildon
   last_updated_on: 2023-10-25 20:55:06.000000000 Z
@@ -36,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -45,6 +49,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nicolas Marchildon
   last_updated_on: 2023-10-25 20:55:06.000000000 Z
@@ -56,6 +61,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nicolas Marchildon
   last_updated_on: 2023-10-25 20:55:06.000000000 Z
@@ -67,6 +73,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Shells
   image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nicolas Marchildon
   last_updated_on: 2023-10-25 20:55:06.000000000 Z
@@ -78,6 +85,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nicolas Marchildon
   last_updated_on: 2023-10-25 20:55:06.000000000 Z
