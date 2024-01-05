@@ -1,11 +1,12 @@
 repo_name: elecnix/ticktick-scenes
 report_id: 8ca28e73d745d55d180f7dffa144f850
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T15:43:16+00:00'
+timestamp: '2024-01-05T09:21:39+00:00'
 requested_by: elecnix
 provider: github
 branch: main
-detected_tools_count: 6
+detected_tools_count: 43
 tools:
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -16,7 +17,20 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes
   detection_source: Repo Metadata
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -25,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -34,6 +49,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nicolas Marchildon
   last_updated_on: 2023-10-25 20:55:06.000000000 Z
@@ -45,6 +61,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nicolas Marchildon
   last_updated_on: 2023-10-25 20:55:06.000000000 Z
@@ -56,12 +73,534 @@ tools:
   category: Languages & Frameworks
   sub_category: Shells
   image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: Pygments
+  description: Pygments is a syntax highlighting package written in Python
+  package_url: https://pypi.org/project/Pygments
+  version: 2.16.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19858/default_4d761b2257a1435539d6dc92346974d9f1d55c70.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: asttokens
+  description: Annotate AST trees with source code positions
+  package_url: https://pypi.org/project/asttokens
+  version: 2.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20745/default_c90b3e514872112e4562f3131a3c6b68b0d05009.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: backcall
+  description: Specifications for callback functions passed in to an API
+  package_url: https://pypi.org/project/backcall
+  version: 0.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2023.7.22
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: charset-normalizer
+  description: The Real First Universal Charset Detector
+  package_url: https://pypi.org/project/charset-normalizer
+  version: 2.0.12
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: decorator
+  description: Decorators for Humans
+  package_url: https://pypi.org/project/decorator
+  version: 5.1.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19911/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: exceptiongroup
+  description: Backport of PEP 654
+  package_url: https://pypi.org/project/exceptiongroup
+  version: 1.1.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: executing
+  description: Get the currently executing AST node of a frame
+  package_url: https://pypi.org/project/executing
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '3.4'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: 6.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: ipykernel
+  description: IPython Kernel for Jupyter
+  package_url: https://pypi.org/project/ipykernel
+  version: 6.26.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20282/default_23dd4b159eaa2c5b085470b39bf396fcc6cf2c38.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: jedi
+  description: An autocompletion tool for Python that can be used for text editors
+  package_url: https://pypi.org/project/jedi
+  version: 0.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20260/default_9a53068260c70b2274df0967716480e7e3f74b0d.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: jupyter_client
+  description: Jupyter protocol implementation and client libraries
+  package_url: https://pypi.org/project/jupyter_client
+  version: 8.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: jupyter_core
+  description: Jupyter core package
+  package_url: https://pypi.org/project/jupyter_core
+  version: 5.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: nest-asyncio
+  description: Patch asyncio to allow nested event loops
+  package_url: https://pypi.org/project/nest-asyncio
+  version: 1.5.8
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20756/default_3b89e4079f3032d1be4fc7657dcb47e23c973660.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  version: '23.2'
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: parso
+  description: A Python Parser
+  package_url: https://pypi.org/project/parso
+  version: 0.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20216/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: pexpect
+  description: Pexpect allows easy control of interactive console applications
+  package_url: https://pypi.org/project/pexpect
+  version: 4.8.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20078/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: pickleshare
+  description: Tiny 'shelve'-like database with concurrency support
+  package_url: https://pypi.org/project/pickleshare
+  version: 0.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20603/default_705055e61b43e314c99bd16582ed1fac9638127e.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: prompt-toolkit
+  description: Library for building powerful interactive command lines in Python
+  package_url: https://pypi.org/project/prompt-toolkit
+  version: 3.0.39
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: psutil
+  description: Cross-platform lib for process and system monitoring in Python
+  package_url: https://pypi.org/project/psutil
+  version: 5.9.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: ptyprocess
+  description: Run a subprocess in a pseudo terminal
+  package_url: https://pypi.org/project/ptyprocess
+  version: 0.7.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20391/default_ec7f908dc4ac3533950df7d8e371292c0bdc3812.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.2
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2021.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: pyzmq
+  description: Python bindings for 0MQ
+  package_url: https://pypi.org/project/pyzmq
+  version: 25.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19913/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: regex
+  description: Alternative regular expression module, to replace re
+  package_url: https://pypi.org/project/regex
+  version: 2021.4.4
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19923/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: setuptools
+  description: Easily download
+  package_url: https://pypi.org/project/setuptools
+  version: 68.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19831/default_65d1c12a133e1aa67ae96a1221c9c122ddf86c5f.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: tornado
+  description: Tornado is a Python web framework and asynchronous networking library
+  package_url: https://pypi.org/project/tornado
+  version: 6.3.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19860/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: traitlets
+  description: Traitlets Python config system
+  package_url: https://pypi.org/project/traitlets
+  version: 5.12.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20029/default_73018c8841403fdd7d8f629d056cba8f938c5589.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
+- name: wcwidth
+  description: Measures number of Terminal column cells of wide-character codes
+  package_url: https://pypi.org/project/wcwidth
+  version: 0.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20026/default_77bb3e5ea95c1543fd636eba30e7257b80fbd4f6.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: websocket-client
+  description: WebSocket client for Python. hybi13 is supported
+  package_url: https://pypi.org/project/websocket-client
+  version: 1.6.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19910/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicolas Marchildon
+  last_updated_on: 2023-10-25 20:55:06.000000000 Z
+- name: wheel
+  description: A built-package format for Python
+  package_url: https://pypi.org/project/wheel
+  version: 0.41.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19889/default_7182952cb92ae36151a754e2592ac68e6e6340df.png
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nicolas Marchildon
   last_updated_on: 2023-10-25 20:55:06.000000000 Z
 - name: zipp
   description: Backport of pathlib-compatible object wrapper for zip files
-  package_url: https://pypi.org/zipp
+  package_url: https://pypi.org/project/zipp
   version: 3.17.0
   license: MIT
   open_source: true
@@ -69,7 +608,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20247/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/elecnix/ticktick-scenes/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nicolas Marchildon
   last_updated_on: 2023-10-25 20:55:06.000000000 Z
