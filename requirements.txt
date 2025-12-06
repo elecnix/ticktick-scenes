@@ -33,7 +33,7 @@ pytz==2021.1
 pyzmq==25.1.2
 regex==2021.4.4
 requests==2.26.0
-setuptools==68.2.2
+setuptools==78.1.1
 six==1.16.0
 stack-data==0.6.2
 ticktick-py==2.0.3
