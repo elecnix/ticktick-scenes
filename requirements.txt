@@ -43,5 +43,5 @@ typing_extensions==4.8.0
 urllib3==2.6.0
 wcwidth==0.2.12
 websocket-client==1.6.4
-wheel==0.42.0
+wheel==0.46.2
 zipp==3.17.0
